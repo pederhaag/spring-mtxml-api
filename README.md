@@ -9,6 +9,7 @@ On the backend a MySQL database is initialized with content description of singl
 * GET /mtxml/mttoxml translates a full MT message to XML. Contents of the MT message is expected in parameter `content` of the request
 * GET /mtxml/tagtoxml translates a single tag to XML. Content of the is expected in parameter `content` of the request. The tag type (i.e. 22F, 19A, etc.) is expected in parameter `tag`
 
+
 ### Example
 #### Input: A fictional MT103 message
 ```
