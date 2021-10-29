@@ -6,8 +6,8 @@ On the backend a MySQL database is initialized with content description of singl
 **Note:** A lot of features in terms of api-funcitonality is missing in this repository like for example caching.
 
 ## Supported methods
-* GET /mtxml/mttoxml translates a full MT message to XML. Contents of the MT message is expected in parameter `content` of the request
-* GET /mtxml/tagtoxml translates a single tag to XML. Content of the is expected in parameter `content` of the request. The tag type (i.e. 22F, 19A, etc.) is expected in parameter `tag`
+* ```GET /mtxml/mttoxml``` translates a full MT message to XML. Contents of the MT message is expected in parameter `content` of the request
+* ```GET /mtxml/tagtoxml``` translates a single tag to XML. Content of the tag is expected in parameter `content` of the request. The tag type (i.e. 22F, 19A, etc.) is expected in parameter `tag`
 
 
 ### Example
