@@ -1,5 +1,5 @@
 # spring-mtxml-api
-This is a web service / api built with Spring. The functionality mirrors the [mtxml repository](https://github.com/pederhaag/mtxml). The mtxml on the other hand provides deployment into AWS.
+This is a web service / api built with Spring. The functionality mirrors the [mtxml repository](https://github.com/pederhaag/mtxml). The mtxml-repository on the other hand provides deployment into AWS.
 
 On the backend a MySQL database is initialized with content description of single tags, including constructed regular expressions used in parsing. This initialization is relatively heavy, but is only performed at startup.
 
