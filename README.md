@@ -3,7 +3,7 @@ This is a web service / api built with Spring. The functionality mirrors the [mt
 
 On the backend a MySQL database is initialized with content description of single tags, including constructed regular expressions used in parsing. This initialization is relatively heavy, but is only performed at startup.
 
-**Note:** A lot of features in terms of api-funcitonality is missing in this repository like for example caching.
+**Note: A lot of features in terms of api-funcitonality is missing in this repository like for example caching. Unit and integration tests are also not implemented.**
 
 ## Supported methods
 * ```GET /mtxml/mttoxml``` translates a full MT message to XML. Contents of the MT message is expected in parameter `content` of the request
